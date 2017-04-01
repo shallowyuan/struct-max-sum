@@ -1,0 +1,1 @@
+For other database, you should follow help instructions in `tools/convert_thumos` 

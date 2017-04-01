@@ -1,0 +1,13 @@
+net: "models/action_detection/prototxt/flow.prototxt"
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 16000
+display: 20
+max_iter: 20000
+momentum: 0.9
+weight_decay: 0.00005
+snapshot: 1000
+snapshot_prefix: "models/f"
+iter_size: 24
+device_id: 0
